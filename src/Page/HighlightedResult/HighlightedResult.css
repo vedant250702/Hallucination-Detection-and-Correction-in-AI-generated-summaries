@@ -1,0 +1,198 @@
+.result-main{
+    display: flex;
+    justify-content: center;
+    /* border: 0.2mm solid red; */
+    width: 99%;
+    height: 99%;
+    margin-top: 0.25cm;
+    max-width: 50cm;
+    background-color: rgb(30, 30, 30);
+}
+
+.result-div{
+    /* border: 0.2mm solid green; */
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0cm 0.5cm;
+
+}
+
+.result-left-part{
+    border: 0.2mm solid rgba(255, 255, 255, 0.251);
+    box-shadow: 0px 0px 2px whitesmoke;
+    background-color: rgb(42, 42, 42);
+    height: 90%;
+    width: 70%;
+}
+
+.result-right-part{
+    border: 0.2mm solid rgba(255, 255, 255, 0.251);
+    box-shadow: 0px 0px 2px whitesmoke;
+    height: 90%;
+    width: 30%;
+    margin-left: 0.3cm;
+}
+
+/* LEFT PART */
+.result-loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* border: 0.2mm solid red; */
+}
+
+.result-display{
+    padding: 0.5cm;
+}
+.left-part-heading{
+    border: 0.2mm solid rgba(195, 195, 195, 0.46);
+    padding: 0.5cm 0.5cm;
+    background-color: rgb(28, 28, 28);
+}
+
+
+
+/* RIGHT PART */
+
+
+.right-part-heading{
+    border: 0.2mm solid rgba(195, 195, 195, 0.46);
+    padding: 0.5cm 0.5cm;
+    background-color: rgb(28, 28, 28);
+}
+
+
+.result-report-score-div{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border: 0.2mm solid rgb(156, 156, 156);
+    height: 3cm;
+    overflow: hidden;
+    padding: 0.2cm 0cm;
+    margin: 0.1cm 0.1cm;
+}
+.score-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1mm solid rgb(191, 191, 191);
+    background-color: rgb(182, 23, 23);
+    border-radius: 2cm;
+    width: 2.5cm;
+    height: 2.5cm;
+    font-size: 0.55cm;
+    margin-left: 0.3cm;
+}
+
+.result-sentences-report{
+    display: flex;
+    flex-direction: column;
+    border: 0.2mm solid rgb(82, 82, 82);
+    background-color: rgb(37, 43, 54);
+    height: fit-content;
+    width: 65%;
+    margin-left: 0.7cm;
+}
+
+.result-sentences-report td{
+    padding: 0.05cm 0.05cm;
+    font-weight: 400;
+    font-size: 0.38cm;
+}
+
+
+/*  Correction DIV Copy Prompt */
+.correction-div-copy-prompt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.15cm;
+    border: 0.2mm solid rgb(175, 175, 175);
+    background-color: rgb(56, 56, 56);
+    overflow: hidden;
+    font-weight: 250;
+    line-height: 1;
+    font-size: 0.35cm;
+    user-select: none;
+    margin: 0.1cm;
+}
+
+.copy-prompt-button{
+    display: flex;
+    align-items: center;
+    border: 0.2mm solid rgba(57, 57, 57, 0.274);
+    background-color:rgb(145, 145, 145);
+    box-shadow: 0px 0px 45px rgb(0, 0, 0) inset;
+    font-size: 0.6cm;
+    padding: 0.2cm 0.2cm;
+    margin-left: 0.3cm;
+    cursor: pointer;
+}
+
+.copy-prompt-button:hover{
+    background-color:rgb(201, 201, 201);
+    box-shadow: 0px 0px 45px rgb(0, 0, 0) inset;
+    border: 0.2mm solid rgba(105, 105, 105, 0.521);
+}
+
+
+
+
+
+/* Correction Div using models CSS */
+.correction-div-through-models{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.15cm;
+    border: 0.2mm solid rgb(175, 175, 175);
+    background-color: rgb(55, 76, 97);
+    overflow: hidden;
+    font-weight: 350;
+    line-height: 1;
+    font-size: 0.35cm;
+    user-select: none;
+    margin: 0.1cm;
+}
+
+.correction-div-through-models-settings{
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(49, 55, 62); */
+    width: 100%;
+    padding: 0.1cm;
+    margin-top: 0.1cm;
+}
+
+.correction-div-through-models-settings button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.44cm;
+    /* background-color: rgb(26, 127, 50); */
+    background-color: rgb(39, 46, 57);
+    color: whitesmoke;
+    border: 0.1mm solid rgba(255, 255, 255, 0.515);
+    margin-left: 0.5cm;
+    width: 100%;
+    cursor: pointer;
+}
+.correction-div-through-models-settings button:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+.correction-div-through-models-settings select{
+    background-color: whitesmoke;
+    color: black;
+    padding: 0.1cm;
+    width: 100%;
+}

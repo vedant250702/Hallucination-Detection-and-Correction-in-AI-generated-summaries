@@ -1,0 +1,42 @@
+.dark-textarea-wrapper {
+  width: 100%;
+  max-width: 800px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+
+.dark-textarea-label {
+  color: #e0e0e0;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  border: 0.6mm ridge rgb(80, 80, 80);
+  border-radius: 0.1cm;
+  background-color: rgb(28, 28, 28);
+  font-size: 0.55cm;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 0cm 0.2cm;
+  user-select: none;
+}
+
+.dark-textarea {
+   background-color: #1e1e1e;
+  color: #f1f1f1;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 1rem;
+  font-size: 1rem;
+  resize: none;
+  outline: none;
+  transition: border 0.2s ease;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.dark-textarea::placeholder {
+  color: #888;
+}
+
+
+
+

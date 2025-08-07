@@ -1,0 +1,11 @@
+.navbar-parent{
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* border: 0.2mm solid rgb(5, 191, 36); */
+    width: 99.9%;
+    height: 1.2cm;
+    padding: 0.1cm 0cm;
+    background-color: rgb(33, 40, 51);
+    
+}

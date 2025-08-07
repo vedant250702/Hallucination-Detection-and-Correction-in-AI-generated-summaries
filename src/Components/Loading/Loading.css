@@ -1,0 +1,49 @@
+.loading-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 0.2mm solid red; */
+    border-radius: 0.1cm;
+    width: 4cm;
+    height: 4cm;
+    position: relative;
+    scale: 1;
+    user-select: none;
+}
+
+.loading-animation{
+    /* border: 0.2mm solid red; */
+    width: 120px;
+    height: 120px;
+    position: relative;
+}
+
+.box{
+    position: absolute;
+
+    width: 60px;
+    height: 60px;
+    top: 0;
+    left: 0;
+}
+
+
+.box2{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 0;
+    right:0;
+    scale: 0.5;
+}
+
+.bx-color{
+    background-color: rgb(45, 69, 102);
+    /* border: 0.2mm solid green; */
+}
+
+.bx-color-2{
+    background-color: rgb(70, 106, 157);
+    /* border: 0.2mm solid green; */
+}
